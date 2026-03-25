@@ -251,7 +251,8 @@ hi("@lsp.type.interface",       { fg = c.type })
 hi("@lsp.type.struct",          { fg = c.type })
 hi("@lsp.type.enum",            { fg = c.type })
 hi("@lsp.type.enumMember",      { fg = c.number })
-hi("@lsp.type.variable",        { fg = c.fg })
+-- @lsp.type.variable intentionally not set: lets treesitter @function.call
+-- win for const arrow functions the LSP misclassifies as variables
 hi("@lsp.type.parameter",       { fg = c.fg })
 hi("@lsp.type.property",        { fg = c.type })
 hi("@lsp.type.namespace",       { fg = c.module })

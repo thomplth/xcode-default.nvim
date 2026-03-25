@@ -147,6 +147,9 @@ hi("Ignore",        { fg = c.fg_subtle })
 hi("Error",         { fg = c.error })
 hi("Todo",          { fg = c.bg, bg = c.warning, bold = true })
 
+-- ── TypeScript/JavaScript vim syntax (fallback when treesitter inactive) ─────
+hi("typescriptVariable",      { fg = c.keyword, bold = true })  -- const, let, var
+
 -- ── Treesitter ───────────────────────────────────────────────────────────────
 -- Comments
 hi("@comment",                  { fg = c.comment, italic = true })

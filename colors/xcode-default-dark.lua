@@ -171,7 +171,7 @@ hi("@storageclass",             { fg = c.keyword, bold = true })
 
 -- Constants / booleans
 hi("@boolean",                  { fg = c.keyword, bold = true })
-hi("@constant",                 { fg = c.number })
+hi("@constant",                 { fg = c.fg })
 hi("@constant.builtin",         { fg = c.keyword, bold = true })
 hi("@constant.macro",           { fg = c.keyword })
 
@@ -263,7 +263,7 @@ hi("@lsp.type.boolean",         { fg = c.keyword, bold = true })
 hi("@lsp.type.selfKeyword",     { fg = c.keyword, bold = true })
 hi("@lsp.type.builtinType",     { fg = c.type })
 hi("@lsp.mod.documentation",    { fg = c.comment, italic = true })
-hi("@lsp.mod.readonly",         { fg = c.number })
+hi("@lsp.mod.readonly",         { fg = c.fg })
 hi("@lsp.mod.static",           { fg = c.func })
 hi("@lsp.mod.deprecated",       { strikethrough = true })
 

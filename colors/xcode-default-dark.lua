@@ -166,8 +166,9 @@ hi("@keyword.modifier",         { fg = c.keyword, bold = true })
 hi("@keyword.type",             { fg = c.keyword, bold = true })
 hi("@keyword.debug",            { fg = c.keyword, bold = true })
 
--- Storage / declarations
+-- Storage / declarations (const, let, var, function, class)
 hi("@storageclass",             { fg = c.keyword, bold = true })
+hi("@keyword.storage",          { fg = c.keyword, bold = true })
 
 -- Constants / booleans
 hi("@boolean",                  { fg = c.keyword, bold = true })

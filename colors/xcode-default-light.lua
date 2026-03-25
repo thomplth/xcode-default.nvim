@@ -264,7 +264,7 @@ hi("@lsp.type.boolean",         { fg = c.keyword, bold = true })
 hi("@lsp.type.selfKeyword",     { fg = c.keyword, bold = true })
 hi("@lsp.type.builtinType",     { fg = c.type })
 hi("@lsp.mod.documentation",    { fg = c.comment, italic = true })
-hi("@lsp.mod.readonly",         { fg = c.fg })
+-- @lsp.mod.readonly: no fg override — lets @lsp.type.keyword color win for const
 hi("@lsp.mod.static",           { fg = c.func })
 hi("@lsp.mod.deprecated",       { strikethrough = true })
 
